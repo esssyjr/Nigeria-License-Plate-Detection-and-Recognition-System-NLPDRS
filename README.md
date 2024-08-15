@@ -22,7 +22,7 @@ The NLPDRS features a user-friendly web interface developed with Gradio, enablin
 - **Input Wanted Plate Numbers:** Users can enter the license plate numbers of wanted vehicles, and the system will continuously monitor the inputs and trigger an alert if a match is found.
 
 ### How to Use the Gradio Interface:
-1. **Access the Interface:** Log in to Hugging Face and access the NLPDRS Gradio interface using the following link: [NLPDRS Gradio Demo](https://huggingface.co/spaces/YourHuggingFaceUsername/NLPDRS)
+1. **Access the Interface:** Log in to Hugging Face and access the NLPDRS Gradio interface using the following link: [NLPDRS Gradio Demo](https://huggingface.co/spaces/esssyjr/NLPDRS)
 2. **Upload and Detect:** Use the "Upload" button to select an image or video containing vehicles. The system will detect Nigerian license plates and display the results.
 3. **Wanted List Alert:** Enter the license plate number of any wanted vehicle in the designated input field. The system will alert you if the wanted plate number is detected.
 
