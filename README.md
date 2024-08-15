@@ -13,14 +13,16 @@ The NLPDRS captures images or video feeds, uses the custom detection model to id
 - **Text Extraction:** Implements PaddleOCR to reliably extract text from detected license plates.
 - **Wanted Car Detection:** Allows users to input the license plate number of wanted vehicles, and the system will alert them upon detection.
 - **User-Friendly Interface:** Built with Gradio, providing an easy-to-use web interface for testing and interaction.
-    ***The uploading and processing may take time because of the low processing power**
-    ***Restart the spece when found sleeping**
+    
   ## Web Interface on Gradio
 
 The NLPDRS features a user-friendly web interface developed with Gradio, enabling users to interact with the system seamlessly. The Gradio interface allows users to:
 - **Upload Images or Videos:** Users can upload images or provide live video feeds for the system to process.
 - **View Detection Results:** The interface displays detected license plates and the extracted text in real-time.
 - **Input Wanted Plate Numbers:** Users can enter the license plate numbers of wanted vehicles, and the system will continuously monitor the inputs and trigger an alert if a match is found.
+- **NOTES**
+  **The uploading and processing may take time because of the low processing power**
+  **Restart the spece when found sleeping**
 
 ### How to Use the Gradio Interface:
 1. **Access the Interface:** Log in to Hugging Face and access the NLPDRS Gradio interface using the following link: [NLPDRS Gradio Demo](https://huggingface.co/spaces/esssyjr/NLPDRS)
